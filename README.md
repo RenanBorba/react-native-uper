@@ -7,7 +7,7 @@ Aplicação Front-end Mobile desenvolvida em React Native para clone do app Uber
   <li>Google Maps Platform API</li>
   <li>State</li>
   <li>react-native-google-places-autocomplete</li>
-  <li>Platform/li>
+  <li>Platform</li>
   <li>react-native-google-maps-directions</li>
   <li>PixelRatio</li>
   <li>Marker</li>
@@ -21,9 +21,11 @@ Aplicação Front-end Mobile desenvolvida em React Native para clone do app Uber
   <li>Interface principal</li>
 </ul> 
 
-![0](https://user-images.githubusercontent.com/48495838/67954355-964de480-fbcf-11e9-9d82-0a06d0b55b83.jpg)
+![0](https://user-images.githubusercontent.com/48495838/68510601-b9713780-0252-11ea-872a-550bf9472612.JPG)
 <br><br>
-![1](https://user-images.githubusercontent.com/48495838/67954358-96e67b00-fbcf-11e9-829f-00478bc942ef.JPG)
+![1](https://user-images.githubusercontent.com/48495838/68510619-c3933600-0252-11ea-84a6-a8226ee713f8.JPG)
+<br><br>
+![3](https://user-images.githubusercontent.com/48495838/68510650-d3127f00-0252-11ea-9edc-2c6a625e1495.JPG)
 <br><br>
 
 
