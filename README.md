@@ -1,6 +1,6 @@
 # proj-react-mobile-uper
 # Projeto Portfólio - Aplicação Uper Mobile React Native
-Aplicação Front-end Mobile desenvolvida em React Native para clone do app Uber com integração com a API Google Maps, voltado para transporte privado urbano, permitindo a interação do usuário com seu local de origem e destino.
+Aplicação Front-end Mobile desenvolvida em React Native para clone do app Uber com integração com a API Google Maps, voltado para transporte privado urbano, permite a interação do usuário com seu local de origem e destino.
 <ul>
   <li>Expo</li>
   <li>Components</li>
