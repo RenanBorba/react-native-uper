@@ -25,14 +25,14 @@ Aplicação Front-end Mobile desenvolvida em React Native para clone do app Uber
 <br><br>
 
 <ul>
-  <li>Interface após a idicação na barra de busca de destino</li>
+  <li>Interface após a idicação de endereço na barra de busca de destino</li>
 </ul>
 
 ![1](https://user-images.githubusercontent.com/48495838/68510876-60ee6a00-0253-11ea-95b8-ee5a7e56e899.JPG)
 <br><br>
 
 <ul>
-  <li>Interface após redirecionamento entre origem e destino</li>
+  <li>Interface após o redirecionamento entre origem e destino</li>
 </ul>
 
 ![3](https://user-images.githubusercontent.com/48495838/68510650-d3127f00-0252-11ea-9edc-2c6a625e1495.JPG)
