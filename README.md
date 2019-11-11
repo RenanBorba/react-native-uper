@@ -3,6 +3,7 @@
 Aplicação Front-end Mobile desenvolvida em React Native para clone do app Uber com integração com a API Google Maps, voltado para transporte privado urbano, permite a interação do usuário entre seu local de origem e destino.
 <ul>
   <li>Expo</li>
+  <li>Components</li>
   <li>react-native-maps</li>
   <li>Google Maps Platform API</li>
   <li>State</li>
