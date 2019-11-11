@@ -16,7 +16,7 @@ Aplicação Front-end Mobile desenvolvida em React Native para clone do app Uber
   <li>react-native-geocoding</li>
 </ul> 
 <br> 
-
+ 
 
 <ul>
   <li>Interface inicial</li>
@@ -39,6 +39,6 @@ Aplicação Front-end Mobile desenvolvida em React Native para clone do app Uber
 ![3](https://user-images.githubusercontent.com/48495838/68510650-d3127f00-0252-11ea-9edc-2c6a625e1495.JPG)
 <br><br>
 
-
+ 
 <br><br>
 Renan Borba.   
