@@ -36,5 +36,5 @@ Aplicação Front-end Mobile desenvolvida em React Native para clone do app Uber
 <br><br><br>
 
  
-<br><br>     
-Renan Borba.  
+<br><br>   
+Renan Borba. 
