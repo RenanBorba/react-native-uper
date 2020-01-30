@@ -125,7 +125,7 @@ export default class Map extends Component {
                 onReady={result => {
                   this.setState({ duration: Math.floor(result.duration) });
 
-                  //ref mapView
+                  // ref mapView
                   this.mapView.fitToCoordinates(result.coordinates, {
                     edgePadding: {
                       right: getPixelSize(50),
@@ -139,7 +139,8 @@ export default class Map extends Component {
               {/* Marcador destino */}
               <Marker
                 /* local do marcador
-                   state  -- destination */
+                   state  -- destination 
+                */
                 coordinate={ destination }
                 // ancorar marcador no centro(x: 0, y: 0) da imagem quadrada
                 anchor={{ x: 0, y: 0 }}
@@ -155,7 +156,8 @@ export default class Map extends Component {
               </Marker>
 
               {/* Marcador origem
-                  state -- region, duration, location */}
+                  state -- region, duration, location 
+              */}
               <Marker coordinate={ region } anchor={{ x: 0, y: 0 }}>
                 <LocationBox>
                   <LocationTimeBox>
