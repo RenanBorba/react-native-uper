@@ -188,7 +188,7 @@ export default class Map extends Component {
       </View>
     );
   }
-}
+};
 ```
 
 <br><br>
@@ -299,7 +299,7 @@ export default class Search extends Component {
       />
     );
   }
-}
+};
 ```
 
 <br><br>
@@ -365,7 +365,7 @@ export default class Details extends Component {
       </Container>
     );
   }
-}
+};
 ```
 
 <br><br>
