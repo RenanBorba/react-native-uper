@@ -89,18 +89,18 @@ export default class Map extends Component {
       <View style={{ flex: 1 }}>
         <MapView
           style={{ flex: 1 }}
-          region={region}
+          region={ region }
           showsUserLocation
           loadingEnabled
           // instância mapView
           ref={el => (this.mapView = el)}
         >
-          {destination && (
+          { destination && (
             <Fragment>
               <Directions
                 origin={region}
-                destination={destination}
-                onReady={result => {
+                destination={ destination }
+                onReady={ result => {
                   this.setState({ duration: Math.floor(result.duration) });
 
                   //ref mapView
@@ -120,18 +120,18 @@ export default class Map extends Component {
                  * Local do marcador
                  * state  -- destination 
                  */
-                coordinate={destination}
+                coordinate={ destination }
                 // ancorar marcador no centro(x: 0, y: 0) da imagem quadrada
                 anchor={{ x: 0, y: 0 }}
                 // ref img
-                image={markerImage}
+                image={ markerImage }
               >
                 <LocationBox>
                   {/* 
                     * Label destino
                     * state  -- title
                     */}
-                  <LocationText>{destination.title}</LocationText>
+                  <LocationText>{ destination.title }</LocationText>
                 </LocationBox>
               </Marker>
 
@@ -139,15 +139,15 @@ export default class Map extends Component {
                 * Marcador origem
                 * state -- region, duration, location 
                 */}
-              <Marker coordinate={region} anchor={{ x: 0, y: 0 }}>
+              <Marker coordinate={ region } anchor={{ x: 0, y: 0 }}>
                 <LocationBox>
                   <LocationTimeBox>
                     {/* label duração */}
-                    <LocationTimeText>{duration}</LocationTimeText>
+                    <LocationTimeText>{ duration }</LocationTimeText>
                     <LocationTimeTextSmall>MIN</LocationTimeTextSmall>
                   </LocationTimeBox>
                   {/* label origem */}
-                  <LocationText>{location}</LocationText>
+                  <LocationText>{ location }</LocationText>
                 </LocationBox>
               </Marker>
             </Fragment>
@@ -155,16 +155,16 @@ export default class Map extends Component {
         </MapView>
 
         {/* se selecionar voltar */}
-        {destination ? (
+        { destination ? (
           <Fragment>
-            <Back onPress={this.handleBack}>
-              <Image source={backImage} />
+            <Back onPress={ this.handleBack }>
+              <Image source={ backImage } />
             </Back>
             <Details />
           </Fragment>
         // senão..
         ) : (
-          <Search onLocationSelected={this.handleLocationSelected} />
+          <Search onLocationSelected={ this.handleLocationSelected } />
         )}
       </View>
     );
