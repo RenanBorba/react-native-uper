@@ -1,25 +1,25 @@
-﻿import React, { Component, Fragment } from "react";
-import { View, Image } from "react-native";
+﻿import React, { Component, Fragment } from 'react';
+import { View, Image } from 'react-native';
 //import { MapView } from 'expo';
-import MapView, { Marker } from "react-native-maps";
-import Geocoder from "react-native-geocoding";
+import MapView, { Marker } from 'react-native-maps';
+import Geocoder from 'react-native-geocoding';
 
-import { getPixelSize } from "../../utils";
-import Search from "../Search";
-import Directions from "../Directions";
-import Details from "../Details";
-import markerImage from "../../assets/marker.png";
-import backImage from "../../assets/back.png";
+import { getPixelSize } from '../../utils';
+import Search from '../Search';
+import Directions from '../Directions';
+import Details from '../Details';
+import markerImage from '../../assets/marker.png';
+import backImage from '../../assets/back.png';
 
-import 
-{
-  Back,
-  LocationBox,
-  LocationText,
-  LocationTimeBox,
-  LocationTimeText,
-  LocationTimeTextSmall
-} from "./styles";
+import
+  {
+    Back,
+    LocationBox,
+    LocationText,
+    LocationTimeBox,
+    LocationTimeText,
+    LocationTimeTextSmall
+  } from './styles';
 
 Geocoder.init(" ");
 
@@ -99,7 +99,7 @@ export default class Map extends Component {
           { destination && (
             <Fragment>
               <Directions
-                origin={region}
+                origin={ region }
                 destination={ destination }
                 onReady={ result => {
                   this.setState({ duration: Math.floor(result.duration) });
@@ -117,9 +117,9 @@ export default class Map extends Component {
               />
               {/* Marcador destino */}
               <Marker
-                /* 
+                /*
                  * Local do marcador
-                 * state  -- destination 
+                 * state  -- destination
                  */
                 coordinate={ destination }
                 // ancorar marcador no centro(x: 0, y: 0) da imagem quadrada
@@ -128,7 +128,7 @@ export default class Map extends Component {
                 image={ markerImage }
               >
                 <LocationBox>
-                  {/* 
+                  {/*
                     * Label destino
                     * state  -- title
                     */}
@@ -136,9 +136,9 @@ export default class Map extends Component {
                 </LocationBox>
               </Marker>
 
-              {/** 
+              {/**
                 * Marcador origem
-                * state -- region, duration, location 
+                * state -- region, duration, location
                 */}
               <Marker coordinate={ region } anchor={{ x: 0, y: 0 }}>
                 <LocationBox>
