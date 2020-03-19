@@ -20,27 +20,28 @@ Aplicação Front-end Mobile desenvolvida em React Native para clone do app Uber
 
 ## src/components/Map/index.js 
 ```js
-import React, { Component, Fragment } from "react";
-import { View, Image } from "react-native";
+import React, { Component, Fragment } from 'react';
+import { View, Image } from 'react-native';
 //import { MapView } from 'expo';
-import MapView, { Marker } from "react-native-maps";
-import Geocoder from "react-native-geocoding";
+import MapView, { Marker } from 'react-native-maps';
+import Geocoder from 'react-native-geocoding';
 
-import { getPixelSize } from "../../utils";
-import Search from "../Search";
-import Directions from "../Directions";
-import Details from "../Details";
-import markerImage from "../../assets/marker.png";
-import backImage from "../../assets/back.png";
+import { getPixelSize } from '../../utils';
+import Search from '../Search';
+import Directions from '../Directions';
+import Details from '../Details';
+import markerImage from '../../assets/marker.png';
+import backImage from '../../assets/back.png';
 
-import {
-  Back,
-  LocationBox,
-  LocationText,
-  LocationTimeBox,
-  LocationTimeText,
-  LocationTimeTextSmall
-} from "./styles";
+import
+  {
+    Back,
+    LocationBox,
+    LocationText,
+    LocationTimeBox,
+    LocationTimeText,
+    LocationTimeTextSmall
+  } from './styles';
 
 Geocoder.init(" ");
 
@@ -111,21 +112,21 @@ export default class Map extends Component {
       <View style={{ flex: 1 }}>
         <MapView
           style={{ flex: 1 }}
-          region={region}
+          region={ region }
           showsUserLocation
           loadingEnabled
           // instância mapView
           ref={el => (this.mapView = el)}
         >
-          {destination && (
+          { destination && (
             <Fragment>
               <Directions
-                origin={region}
-                destination={destination}
-                onReady={result => {
+                origin={ region }
+                destination={ destination }
+                onReady={ result => {
                   this.setState({ duration: Math.floor(result.duration) });
 
-                  // ref mapView
+                  //ref mapView
                   this.mapView.fitToCoordinates(result.coordinates, {
                     edgePadding: {
                       right: getPixelSize(50),
@@ -138,35 +139,38 @@ export default class Map extends Component {
               />
               {/* Marcador destino */}
               <Marker
-                /* local do marcador
-                   state  -- destination 
-                */
+                /*
+                 * Local do marcador
+                 * state  -- destination
+                 */
                 coordinate={ destination }
                 // ancorar marcador no centro(x: 0, y: 0) da imagem quadrada
                 anchor={{ x: 0, y: 0 }}
                 // ref img
-                image={markerImage}
+                image={ markerImage }
               >
                 <LocationBox>
-                  {/* label destino
-                      state  -- title
-                  */}
+                  {/*
+                    * Label destino
+                    * state  -- title
+                    */}
                   <LocationText>{ destination.title }</LocationText>
                 </LocationBox>
               </Marker>
 
-              {/* Marcador origem
-                  state -- region, duration, location 
-              */}
+              {/**
+                * Marcador origem
+                * state -- region, duration, location
+                */}
               <Marker coordinate={ region } anchor={{ x: 0, y: 0 }}>
                 <LocationBox>
                   <LocationTimeBox>
                     {/* label duração */}
-                    <LocationTimeText>{duration}</LocationTimeText>
+                    <LocationTimeText>{ duration }</LocationTimeText>
                     <LocationTimeTextSmall>MIN</LocationTimeTextSmall>
                   </LocationTimeBox>
                   {/* label origem */}
-                  <LocationText>{location}</LocationText>
+                  <LocationText>{ location }</LocationText>
                 </LocationBox>
               </Marker>
             </Fragment>
@@ -174,16 +178,16 @@ export default class Map extends Component {
         </MapView>
 
         {/* se selecionar voltar */}
-        {destination ? (
+        { destination ? (
           <Fragment>
-            <Back onPress={this.handleBack}>
-              <Image source={backImage} />
+            <Back onPress={ this.handleBack }>
+              <Image source={ backImage } />
             </Back>
             <Details />
           </Fragment>
         // senão..
         ) : (
-          <Search onLocationSelected={this.handleLocationSelected} />
+          <Search onLocationSelected={ this.handleLocationSelected } />
         )}
       </View>
     );
@@ -237,7 +241,7 @@ export default class Search extends Component {
           autoCorrect: false
         }}
         listViewDisplayed={searchFocused}
-        // Trazer detalhes -- latit, longit, tempo percurso...
+        // Trazer detalhes --> latit, longit, tempo percurso...
         fetchDetails
         enablePoweredByContainer={false}
         styles={{
@@ -312,9 +316,10 @@ export default class Search extends Component {
 
 ## src/components/Directions/index.js
 ```js
-import React from "react";
-import MapViewDirections from "react-native-maps-directions";
+import React from 'react';
+import MapViewDirections from 'react-native-maps-directions';
 
+//props
 const Directions = ({ destination, origin, onReady }) => (
   <MapViewDirections
     destination={destination}
@@ -335,18 +340,19 @@ export default Directions;
 
 ## src/components/Details/index.js
 ```js
-import React, { Component } from "react";
+import React, { Component } from 'react';
 
-import {
-  Container,
-  TypeTitle,
-  TypeDescription,
-  TypeImage,
-  RequestButton,
-  RequestButtonText
-} from "./styles";
+import
+  {
+    Container,
+    TypeTitle,
+    TypeDescription,
+    TypeImage,
+    RequestButton,
+    RequestButtonText
+  } from './styles';
 
-import uberx from "../../assets/uberx.png";
+import uberx from '../../assets/uberx.png';
 
 export default class Details extends Component {
   render() {
