@@ -11,7 +11,8 @@ import Details from "../Details";
 import markerImage from "../../assets/marker.png";
 import backImage from "../../assets/back.png";
 
-import {
+import 
+{
   Back,
   LocationBox,
   LocationText,
