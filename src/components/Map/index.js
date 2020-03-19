@@ -116,8 +116,10 @@ export default class Map extends Component {
               />
               {/* Marcador destino */}
               <Marker
-                /* local do marcador
-                   state  -- destination */
+                /* 
+                 * Local do marcador
+                 * state  -- destination 
+                 */
                 coordinate={destination}
                 // ancorar marcador no centro(x: 0, y: 0) da imagem quadrada
                 anchor={{ x: 0, y: 0 }}
@@ -125,15 +127,18 @@ export default class Map extends Component {
                 image={markerImage}
               >
                 <LocationBox>
-                  {/* label destino
-                      state  -- title
-                  */}
+                  {/* 
+                    * Label destino
+                    * state  -- title
+                    */}
                   <LocationText>{destination.title}</LocationText>
                 </LocationBox>
               </Marker>
 
-              {/* Marcador origem
-                  state -- region, duration, location */}
+              {/** 
+                * Marcador origem
+                * state -- region, duration, location 
+                */}
               <Marker coordinate={region} anchor={{ x: 0, y: 0 }}>
                 <LocationBox>
                   <LocationTimeBox>
