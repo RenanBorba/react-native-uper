@@ -34,7 +34,7 @@ export default class Search extends Component {
           autoCorrect: false
         }}
         listViewDisplayed={searchFocused}
-        // Trazer detalhes -- latit, longit, tempo percurso...
+        // Trazer detalhes --> latit, longit, tempo percurso...
         fetchDetails
         enablePoweredByContainer={false}
         styles={{
