@@ -13,7 +13,7 @@ Aplicação Front-end Mobile desenvolvida em React Native para clone do app Uber
   <li>PixelRatio</li>
   <li>Marker</li> 
   <li>react-native-geocoding</li>
-  <li>State</li>
+  <li>States</li>
 </ul> 
 <br><br> 
  
