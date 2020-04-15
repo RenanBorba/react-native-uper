@@ -16,7 +16,7 @@ Aplicação Front-end Mobile desenvolvida em React Native para clone do app Uber
 </ul>
 <br><br>
 
-
+ 
 ## src/components/Map/index.js 
 ```js
 import React, { Component, Fragment } from 'react';
