@@ -1,5 +1,24 @@
+<div align="center">
+
 # Projeto Portfólio - Aplicação Uper Mobile React Native
+
+</div>
+
+<br>
+
+<div align="center">
+
+[![Build Status](https://img.shields.io/github/stars/RenanBorba/react-native-uper.svg)](https://github.com/RenanBorba/react-native-uper) [![Build Status](https://img.shields.io/github/forks/RenanBorba/react-native-uper.svg)](https://github.com/RenanBorba/react-native-uper) [![npm version](https://badge.fury.io/js/react-native.svg)](https://badge.fury.io/js/react-native)
+
+</div>
+
+<br>
+
 Aplicação Front-end Mobile desenvolvida em React Native para clone do app Uber com integração com a API Google Maps, voltada para transporte privado urbano, permite a interação do usuário entre seu local de origem e destino.
+
+<br><br>
+
+## :rocket: Tecnologias 
 <ul>
   <li>Expo</li>
   <li>Components</li>
