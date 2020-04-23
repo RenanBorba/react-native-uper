@@ -18,6 +18,14 @@ Aplicação Front-end Mobile desenvolvida em React Native para clone do app Uber
 
 <br><br>
 
+<div align="center">
+
+![3](https://user-images.githubusercontent.com/48495838/68510650-d3127f00-0252-11ea-9edc-2c6a625e1495.JPG)
+
+</div>
+
+<br><br>
+
 ## :rocket: Tecnologias 
 <ul>
   <li>Expo</li>
@@ -36,7 +44,15 @@ Aplicação Front-end Mobile desenvolvida em React Native para clone do app Uber
 
 <br><br>
 
-#### Segue abaixo as principais estruturas e interfaces: 
+## :arrow_forward: Start
+<ul> 
+  <li>npm install</li>
+  <li>npm run start / npm start</li>
+</ul>
+
+<br><br><br>
+
+## :mega: Segue abaixo as principais estruturas e interfaces: 
 <br><br><br>
  
 ## src/components/Map/index.js 
