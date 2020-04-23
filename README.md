@@ -1,6 +1,6 @@
 <div align="center">
 
-# Projeto Portfólio - Aplicação Uper Mobile React Native
+# Projeto - Aplicação Uper Mobile React Native
 
 </div>
 
