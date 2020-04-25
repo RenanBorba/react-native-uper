@@ -26,6 +26,7 @@ Aplicação Front-end Mobile desenvolvida em React Native para clone do app Uber
 
 <br><br>
 
+
 ## :rocket: Tecnologias 
 <ul>
   <li>Expo</li>
