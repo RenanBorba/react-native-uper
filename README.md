@@ -53,8 +53,9 @@ Aplicação Front-end Mobile desenvolvida em React Native para clone do app Uber
 <br><br><br>
 
 ## :mega: Segue abaixo as principais estruturas e interfaces: 
+
 <br><br><br>
- 
+
 ## src/components/Map/index.js 
 ```js
 import React, { Component, Fragment } from 'react';
@@ -237,8 +238,8 @@ export default class Map extends Component {
 ## Interface inicial
 
 ![0](https://user-images.githubusercontent.com/48495838/68510601-b9713780-0252-11ea-872a-550bf9472612.JPG)
-<br><br><br><br>
 
+<br><br><br><br>
 
 ## src/components/Search/index.js
 ```js
@@ -348,8 +349,8 @@ export default class Search extends Component {
 ## Interface após a idicação de endereço na barra de busca de destino
 
 ![1](https://user-images.githubusercontent.com/48495838/68510876-60ee6a00-0253-11ea-95b8-ee5a7e56e899.JPG)
-<br><br><br><br>
 
+<br><br><br><br>
 
 ## src/components/Directions/index.js
 ```js
