@@ -372,9 +372,7 @@ const Directions = ({ destination, origin, onReady }) => (
 export default Directions;
 ```
 
-
 <br><br>
-
 
 ## src/components/Details/index.js
 ```js
