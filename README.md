@@ -35,7 +35,7 @@ Aplicação Front-end Mobile desenvolvida em React Native para clone do app Uber
   <li>Platform</li>
   <li>react-native-google-places-autocomplete</li>
   <li>react-native-google-maps-directions</li>
-  <li>Marker</li> 
+  <li>Marker</li>
   <li>react-native-geocoding</li>
   <li>States</li>
   <li>PixelRatio</li>
@@ -419,4 +419,5 @@ export default class Details extends Component {
 <br><br><br>
 
 <br><br>
+
 Renan Borba.
