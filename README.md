@@ -417,7 +417,6 @@ export default class Details extends Component {
 ![3](https://user-images.githubusercontent.com/48495838/68510650-d3127f00-0252-11ea-9edc-2c6a625e1495.JPG)
 
 <br><br><br>
-
-<br><br>
+<br>
 
 Renan Borba.
