@@ -20,7 +20,7 @@ Aplicação Front-end Mobile desenvolvida em React Native para clone do app Uber
 
 <div align="center">
 
-![uper](https://user-images.githubusercontent.com/48495838/84695073-a1684180-af20-11ea-98b2-340499e5d3ff.png)
+![uper](https://user-images.githubusercontent.com/48495838/84800764-a4bd0500-afd4-11ea-87dd-66e2f076da37.png)
 
 </div>
 
