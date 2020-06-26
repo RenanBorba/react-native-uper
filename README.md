@@ -8,7 +8,11 @@
 
 <div align="center">
 
-[![Build Status](https://img.shields.io/github/stars/RenanBorba/react-native-uper.svg)](https://github.com/RenanBorba/react-native-uper) [![Build Status](https://img.shields.io/github/forks/RenanBorba/react-native-uper.svg)](https://github.com/RenanBorba/react-native-uper) [![npm version](https://badge.fury.io/js/react-native.svg)](https://badge.fury.io/js/react-native)
+[![Generic badge](https://img.shields.io/badge/Made%20by-Renan%20Borba-purple.svg)](https://shields.io/) [![Build Status](https://img.shields.io/github/stars/RenanBorba/react-native-uper.svg)](https://github.com/RenanBorba/react-native-uper) [![Build Status](https://img.shields.io/github/forks/RenanBorba/react-native-uper.svg)](https://github.com/RenanBorba/react-native-uper) [![made-for-VSCode](https://img.shields.io/badge/Made%20for-VSCode-1f425f.svg)](https://code.visualstudio.com/) [![npm version](https://badge.fury.io/js/react-native.svg)](https://badge.fury.io/js/react-native) [![Open Source Love svg2](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
+
+<br>
+
+![uber](https://user-images.githubusercontent.com/48495838/85882781-43f0b200-b7b6-11ea-86af-1557a041892d.png)
 
 </div>
 
@@ -433,8 +437,3 @@ export default class Details extends Component {
 ## Interface após o redirecionamento entre origem e destino
 
 ![3](https://user-images.githubusercontent.com/48495838/68510650-d3127f00-0252-11ea-9edc-2c6a625e1495.JPG)
-
-<br><br>
-<br>
-
-Renan Borba.
