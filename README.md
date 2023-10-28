@@ -12,7 +12,7 @@
 
 <br>
 
-![uber](https://user-images.githubusercontent.com/48495838/85882781-43f0b200-b7b6-11ea-86af-1557a041892d.png)
+![uper_logo](https://github.com/RenanBorba/react-native-uper/assets/48495838/3fce225b-e508-4e4b-b383-33777b9d4b17)
 
 </div>
 
